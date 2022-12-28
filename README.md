@@ -1,5 +1,16 @@
 # On Demand Academy Go Bootcamp
 
+# Notes from George
+## Architecture
+- main
+- router
+- controller
+- usecase
+- service / repository
+- model / entitity
+
+gin-gonic
+
 ## Introduction
 
 Thank you for participating in the Golang Bootcamp course!

@@ -14,6 +14,7 @@ func NewRouter(r *gin.Engine) *gin.Engine {
 	c.Router = r
 
 	v1Group.GET("/read-external-api", c.ReadExternalApi)
+	v1Group.GET("/read-pokemon-csv", c.ReadPokemonCSV)
 
 	return r
 }

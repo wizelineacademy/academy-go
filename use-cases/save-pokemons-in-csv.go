@@ -10,7 +10,7 @@ import (
 )
 
 func (*UseCases) SavePokemonsInCSV(fileName string, pokemons []model.Pokemon) error {
-	csvFile, err := os.Create(fileName)
+	csvFile, err := os.Create(fileName + ".csv")
 	defer func() {
 		err = csvFile.Close()
 		if err != nil {

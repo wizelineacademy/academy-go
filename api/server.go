@@ -1,8 +1,6 @@
 package api
 
 import (
-	"net/http"
-
 	"github.com/gin-gonic/gin"
 	"github.com/tamnguyenwizeline/ondemand-go-bootcamp/util"
 )
@@ -27,9 +25,7 @@ func NewServer(config util.Config) (*Server, error) {
 func (server *Server) setupRouter() {
 	router := gin.Default()
 
-	router.GET("/get", func(c *gin.Context) {
-		c.String(http.StatusOK, "The available groups are [...]")
-	})
+	router.GET("/pokemons", server.getPokemons)
 
 	server.router = router
 }

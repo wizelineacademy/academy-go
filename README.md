@@ -9,10 +9,10 @@ Here, you'll find instructions for completing your certification.
 
 The purpose of the challenge is for you to demonstrate your Golang skills. This is your chance to show off everything you've learned during the course!!
 
-You will build and deliver a whole Golang project on your own. We don't want to limit you by providing some fill-in-the-blanks exercises, but instead request you to build it from scratch.
+You will build and deliver a whole Golang project on your own. We don't want to limit you by providing some fill-in-the-blank exercises, but instead, request you to make it from scratch.
 We hope you find this exercise challenging and engaging.
 
-The goal is to build a REST API which must include:
+The goal is to build a REST API that must include the following:
 
 - An endpoint for reading from an external API
   - Write the information in a CSV file
@@ -50,11 +50,11 @@ To get started, follow these steps:
 
 ## Deliverables
 
-> If you are interested in filing the Go Bootcamp in your WizelineOS profile, please contact Academy to assign you a mentor who can review you comply with your capstone project.
+> If you are interested in filing the Go Bootcamp in your WizelineOS profile, don't hesitate to contact Academy to assign a mentor who can review your compliance with your capstone project.
 
 We provide the delivery dates so you can plan accordingly; please take this challenge seriously and try to make progress constantly.
 
-For the final deliverable, we will provide some feedback. If you are struggling with something, contact the mentors and peers to get help on time. Feel free to use the slack channel available.
+For the final deliverable, we will provide some feedback. Contact your mentors and peers to get timely help if you are struggling with something. Feel free to use the slack channel available.
 
 ## First Deliverable
 
@@ -77,7 +77,7 @@ Based on the self-study material and mentorship covered until this deliverable, 
 - Use best practices
 - Handle the Errors ***(CSV not valid, error connection, etc)***
 
-> Note: what’s listed in this deliverable is just for guidance and to help you distribute your workload; you can deliver more or fewer items if necessary. However, if you deliver fewer items at this point, you have to cover the remaining tasks in the next deliverable.
+> Note: what’s listed in this deliverable is just for guidance and to help you distribute your workload; you can deliver more or fewer items if necessary. However, if you provide fewer items at this point, you have to cover the remaining tasks in the following deliverable.
 
 ## Second Deliverable
 
@@ -88,9 +88,9 @@ Based on the self-study material and mentorship covered until this deliverable, 
 - The information obtained should be stored in the CSV file
 - Add unit testing
 - Update the endpoint made in the first deliverable to display the result as a JSON
-- Refator if needed
+- Refactor if needed
 
-> Note: what’s listed in this deliverable is just for guidance and to help you distribute your workload; you can deliver more or fewer items if necessary. However, if you deliver fewer items at this point, you have to cover the remaining tasks in the next deliverable.
+> Note: what’s listed in this deliverable is just for guidance and to help you distribute your workload; you can deliver more or fewer items if necessary. However, if you provide fewer items at this point, you have to cover the remaining tasks in the following deliverable.
 
 ## Final Deliverable
 
@@ -100,8 +100,8 @@ Based on the self-study material and mentorship covered until this deliverable, 
 
 ```text
 type: Only support "odd" or "even"
-items: Is an Int and is the amount of valid items you need to display as a response
-items_per_workers: Is an Int and is the amount of valid items the worker should append to the response
+items: Is an Int and is the number of valid things you need to display as a response
+items_per_workers: Is an Int and is the number of valid items the worker should append to the response
 ```
 
 - Reject the values according to the query param ***type*** (you could use an ID column)
@@ -117,16 +117,16 @@ items_per_workers: Is an Int and is the amount of valid items the worker should 
 
 ## Submitting the deliverables
 
-For submitting your work, you should follow these steps:
+To submit your work, you should follow these steps:
 
 1. Create a pull request with your code, targeting the master branch of your fork.
-2. Fill this [form](https://forms.gle/K3umfgwQj2HQ6pMe9) including the PR’s url
-3. Stay tune for feedback
+2. Fill this [form](https://forms.gle/P3QWb9iPU5MTaS3C8) including the PR’s url
+3. Stay tuned for feedback
 4. Do the changes according to the reviewer's comments
 
 ## Documentation
 
-### Must to learn
+### Must learn
 
 - [Go Tour](https://tour.golang.org/welcome/1)
 - [Go basics](https://www.youtube.com/watch?v=C8LgvuEBraI)

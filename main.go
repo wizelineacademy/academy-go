@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/rs/zerolog/log"
-	"github.com/tamnguyenwizeline/ondemand-go-bootcamp/api"
 
+	"github.com/tamnguyenwizeline/ondemand-go-bootcamp/api"
 	"github.com/tamnguyenwizeline/ondemand-go-bootcamp/util"
 )
 

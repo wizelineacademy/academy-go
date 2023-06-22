@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+
 	"github.com/tamnguyenwizeline/ondemand-go-bootcamp/util"
 )
 
@@ -17,8 +18,4 @@ func (server *Server) getPokemons(ctx *gin.Context) {
 	}
 
 	ctx.JSON(http.StatusOK, pokemons)
-}
-
-func ReadCSVFile(s string) {
-	panic("unimplemented")
 }

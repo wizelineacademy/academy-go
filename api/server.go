@@ -26,6 +26,7 @@ func (server *Server) setupRouter() {
 	router := gin.Default()
 
 	router.GET("/pokemons", server.getPokemons)
+	router.POST("/pokemons", server.loadPokemons)
 
 	server.router = router
 }

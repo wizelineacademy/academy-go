@@ -19,3 +19,14 @@ func (server *Server) getPokemons(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusOK, pokemons)
 }
+
+func (server *Server) loadPokemons(ctx *gin.Context) {
+
+	err := util.LoadPokemonData("./resources/pokemons.csv")
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err))
+		return
+	}
+
+	ctx.JSON(http.StatusOK, nil)
+}

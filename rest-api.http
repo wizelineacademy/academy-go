@@ -1,0 +1,9 @@
+### Health check
+GET http://localhost:8080/health
+
+### Get Pokemon by Id
+
+GET http://localhost:8080/pokemon/1
+
+### Get with error
+GET http://localhost:8080/pokemon/111
